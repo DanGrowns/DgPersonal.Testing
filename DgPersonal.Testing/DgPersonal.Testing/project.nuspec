@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <version>1.0.0</version>
+        <authors>Dan Growns</authors>
+        <owners>Dan Growns</owners>
+        <id>DgPersonal.Testing</id>
+        <title>DgPersonal.Testing</title>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <projectUrl>https://github.com/DanGrowns/DgPersonal.Testing</projectUrl>
+        <repository type="git" url="https://github.com/DanGrowns/DgPersonal.Testing.git" branch="main" />
+        <description>Reusable code for my testing strategy.</description>
+        <dependencies>
+            <group targetFramework=".NET5.0">
+                <dependency id="FluentAssertions" version="6.5.1" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Debug\net5.0\*.dll" target="lib\net5.0" />
+        <file src="bin\Debug\net5.0\*.pdb" target="lib\net5.0" />
+    </files>
+</package>
